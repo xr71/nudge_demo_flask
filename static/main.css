@@ -580,8 +580,8 @@ section {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 72px;
-  height: 72px;
+  width: 300px;
+  height: 300px;
 }
 
 .services .icon i {
@@ -606,7 +606,8 @@ section {
 }
 
 .services .icon-box-pink .icon {
-  background: #fceef3;
+  background: url("../static/img/seed-1.png") center center no-repeat fixed;
+  background-size: cover;
 }
 
 .services .icon-box-pink .icon i {
@@ -618,7 +619,8 @@ section {
 }
 
 .services .icon-box-black .icon {
-  background: #e6fdfc;
+  background: url('../static/img/seed-2.png') center center no-repeat fixed;
+  background-size: cover;
 }
 
 .services .icon-box-black .icon i {
@@ -630,7 +632,8 @@ section {
 }
 
 .services .icon-box-green .icon {
-  background: #eafde7;
+  background: url('../static/img/seed-3.png') center center no-repeat fixed;
+  background-size: cover;
 }
 
 .services .icon-box-green .icon i {
@@ -2082,7 +2085,7 @@ section {
 }
 
 #footer .footer-top {
-  background: rgb(54, 64, 17);
+  background: #31352e;
   padding: 60px 0 30px 0;
 }
 
